@@ -1,0 +1,9 @@
+id = "dsa-practice"
+name = "DSA Practice"
+version = "0.1.0"
+schema_version = 1
+authors = ["sravannotshravan"]
+description = "LeetCode / GeeksforGeeks practice tools for Zed's agent: fetch problems, run Python/Java tests, AI test cases via LM Studio, heatmaps. Needs the `dsa` CLI."
+repository = "https://github.com/sravannotshravan/zed-dsa"
+
+[context_servers.dsa-practice]

@@ -1,0 +1,5 @@
+extension/target/
+extension/*.wasm
+__pycache__/
+*.egg-info/
+build/

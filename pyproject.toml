@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zed-dsa"
+version = "0.1.0"
+description = "LeetCode / GeeksforGeeks practice inside Zed: fetch problems, run Python/Java tests, AI test cases via LM Studio, heatmaps"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+dsa = "zed_dsa.cli:main"
+
+[tool.setuptools]
+packages = ["zed_dsa"]
+
+[tool.setuptools.package-data]
+zed_dsa = ["LC.java"]
